@@ -6,7 +6,7 @@ const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer);
 require("dotenv").config();
 //var ExpressPeerServer = require("peer").ExpressPeerServer;
-const port = process.env.PORT || 6000;
+const port = 6000;
 
 app.use(cors());
 app.use(express.json());
