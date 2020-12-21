@@ -29,7 +29,6 @@ const styles = (theme) => ({
 
 function Login(props) {
 	const { classes } = props;
-
 	const history = useHistory();
 	const location = useLocation();
 	const [roomId, setRoomId] = useState(

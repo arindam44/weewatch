@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useHistory, useLocation } from "react-router-dom";
-import { socket, peer } from "../Utils/Socket&Peer";
+import { peer, socket } from "../Utils/Socket&Peer";
 import JoingRequestDialog from "../Components/JoingRequestDialog";
 
 import withStyles from "@material-ui/core/styles/withStyles";
