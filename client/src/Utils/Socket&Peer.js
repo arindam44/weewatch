@@ -1,7 +1,9 @@
 import Peer from "peerjs";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io(
+	"ws://weewatch.herokuapp.com/socket.io/?EIO=4&transport=websocket"
+);
 let myId;
 
 let peer = new Peer(undefined, {
